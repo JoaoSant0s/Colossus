@@ -18,7 +18,6 @@ public class LifeController : MonoBehaviour {
     }
 
     void UpdateTexture(int lifeDifference) {
-        Debug.Log(lifeDifference);
         for (int i = 1; i < renders.Length; i++) {
             if(i <= lifeDifference) {                
                 renders[i].enabled = true;
